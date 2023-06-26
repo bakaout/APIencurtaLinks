@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encurtador de links</title>
+    <link rel="shortcut icon" href="./imgs/layers.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Encurtador de links<span>By estagiário</span></h1>
+    </header>
+    <main>
+        <div id="areaLink">
+            <form id="formulario">
+                <input placeholder="Coloque o seu link aqui" id="original" class="busca" type="text">
+                <button type="submit" class="btn"><img src="./imgs/send.svg" alt="Encurtar"></button>
+            </form>
+        </div>
+        <div id="areaLinkcurto">
+            <div id="divCopia">
+                <p id="curto">Seu link curto aparecerá aqui</p>
+                <button class="btn" onclick="copia()"><img src="./imgs/copy.svg" alt="Copiar"></button>
+            </div>
+        </div>
+
+        <div id="complementacoes">
+            <h1>Complementações estão sendo contruídas</h1>
+            <img src="./imgs/engrenagem.png" alt="">
+        </div>
+        
+        <ul id="biblio" type="none">
+            <h2>bibliografia</h2>
+            <li>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/j3gcgBbwcck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/Tb5b8T1t9t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Aprendendo sobre a arquitetura da API</p>
+            </li>
+            <li>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/Q9oVStZ1DJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Criando ideias base para a estrutura</p>
+            </li>
+            <li>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/Cdu0WJhI-d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>esclarecendo ideias e duvidas sobre a estrutura do backend</p>
+            </li>
+            <li>
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/VM4e37DaskU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <a href="http://localhost:7777/estagiario/lMim" target="_blank"><p>Mais sobre Axios</p></a>
+                <a href="http://localhost:7777/estagiario/8ams" target="_blank"><p>aprendendo a integrar o front-end com o backend com axios</p></a>
+            </li>
+            <li>
+                <a href="http://localhost:7777/estagiario/3lis" target="_blank"><p>sobre o framework mongoose</p></a>
+            </li>
+            <li>
+                <a href="https://www.httpstatus.com.br" target="_blank"><p>status http</p></a>
+            </li>
+            <li style="border-bottom: none;">
+                <a href="https://openai.com/blog/chatgpt" target="_blank" >Tirando dúvidas e aprendendo com ChatGPT</a>
+            </li>
+        </ul>
+        <!--<div id="pcPos">
+            <figure>
+                <figcaption>
+                    <img id="pc" src="./imgs/computador.png" alt="">
+                </figcaption>
+            </figure>
+        </div>-->
+    </main>
+    <footer>
+            <p>&copy;Copyright 2023 | João, o novo estagiário | Layers</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
