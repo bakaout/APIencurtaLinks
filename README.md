@@ -9,6 +9,8 @@ express - dependencia que lida com as requisições http
 mongoose - dependencia para lidar e conectar com o banco de dados
 nanoid - dependencia que cria ids de diferentes tamanhos
 cors - dependencia que libera o frontend de mandar dados para as rotas
+dependencias ---------------
+----------------------------
 ----------------------------
 node.js - framework backend
 ----------------------------
@@ -18,6 +20,6 @@ banco de dados mongoDb
 ----------------------------
 Axios para conectar o backend com o front
 ----------------------------
-
+----------------------------
 Gostei muito de fazer este projeto, pois foi um grande desafio que me ajudou a aprender muito sobre novas tecnologias e me estruturar melhor em outras.
 Obrigado Layers Education
