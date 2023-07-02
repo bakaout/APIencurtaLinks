@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encurtador de links</title>
-    <link rel="shortcut icon" href="./imgs/layers.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./frontend/imgs/layers.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./frontend/css/normalize.css">
+    <link rel="stylesheet" href="./frontend/css/style.css">
 </head>
 <body>
     <header>
@@ -16,19 +16,19 @@
         <div id="areaLink">
             <form id="formulario">
                 <input placeholder="Coloque o seu link aqui" id="original" class="busca" type="text">
-                <button type="submit" class="btn"><img src="./imgs/send.svg" alt="Encurtar"></button>
+                <button type="submit" class="btn"><img src="./frontend/imgs/send.svg" alt="encurtar"></button>
             </form>
         </div>
         <div id="areaLinkcurto">
             <div id="divCopia">
                 <p id="curto">Seu link curto aparecerá aqui</p>
-                <button class="btn" onclick="copia()"><img src="./imgs/copy.svg" alt="Copiar"></button>
+                <button class="btn" onclick="copia()"><img src="./frontend/imgs/copy.svg" alt="copiar"></button>
             </div>
         </div>
 
         <div id="complementacoes">
             <h1>Complementações estão sendo contruídas</h1>
-            <img src="./imgs/engrenagem.png" alt="">
+            <img src="./frontend/imgs/engrenagem.png" alt="manutenção">
         </div>
         
         <ul id="biblio" type="none">
@@ -74,6 +74,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="./script.js" defer></script>
+    <script src="./frontend/script.js" defer></script>
 </body>
 </html>
