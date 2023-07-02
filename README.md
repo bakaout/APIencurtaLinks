@@ -1,6 +1,9 @@
 # APIencurtaLinks
 Criando uma API para encurtar links e conectando-a com o front-end.
-
+----------------------------
+Como inicializar a aplicação: entrar na pasta do backend pelo node.js e digitar o seguinte comando: npm start. Após isso, o servidor ja iniciou e agora é só abrir o arquivo .html no navegador e colocar o seu link á ser encurtado.
+----------------------------
+----------------------------
 tecnologias usadas
 
 dependencias:
