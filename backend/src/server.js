@@ -11,7 +11,7 @@ app.use(cors());
 app.use(router)
 
 // conectando ao banco de dados mongo
-mongoose.connect('mongodb+srv://joaonovoestagiario:joaonovoestagiario@cluster0.xuqajbs.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://joaonovoestagiario:joaonovoestagiario@api.iapslvw.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
